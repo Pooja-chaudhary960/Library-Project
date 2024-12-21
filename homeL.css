@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    background-color: skyblue;
+  }
+  h1{
+    color: blueviolet;
+    text-align: center;
+  }
+  nav{
+  background-color: pink;
+  padding: 10px;
+  margin-left: 10px;
+  width: 1350px;
+  height: 100px;
+  padding-top: 30px;
+}
+nav ul{
+list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  nav ul li{
+  margin-right: 20px;
+  }
+  nav ul li:last-child{
+    margin-right:0;
+  }
+  nav ul li a{
+    color: blue;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color skyblue;
+    font-size: 20px;
+    
+  }
+  nav ul li a:hover {
+    background-color:blueviolet;
+  }

@@ -1,0 +1,52 @@
+* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+/* Page title styles */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Members list container */
+.members-list {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Individual member styles */
+.members {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+/* Member data styles */
+.members p {
+    margin-bottom: 10px;
+    font-size: 20px;
+	text-align:center;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 600px) {
+    .members-list {
+        padding: 10px;
+    }
+}
